@@ -31,10 +31,10 @@
     <script src="{{asset('dist/js/morris-data.js')}}"></script>
 	
 	<!-- ChartJS JavaScript -->
-	<script src="vendors/chart.js/Chart.min.js"></script>
+	<script src="{{asset('vendors/chart.js/Chart.min.js')}}"></script>
 	
 	<!-- Jquery Toast JavaScript -->
-	<script src="vendors/bower_components/jquery-toast-plugin/dist/jquery.toast.min.js"></script>
+	<script src="{{asset('vendors/bower_components/jquery-toast-plugin/dist/jquery.toast.min.js')}}"></script>
 	
 	<!-- Init JavaScript -->
 	<script src="{{asset('dist/js/init.js')}}"></script>
